@@ -1,0 +1,23 @@
+Catalano Framework 1.6.2 road map
+-----------------------------------------
+
+* Catalano.Imaging
+
+- New: Find Contours.
+- New: Ultimate Eroded Points.
+- Added: DPI support when save the images in FastBitmap.
+- Reworked: Fast Variance, now is really fast.
+- Fixed: Shrink was slow and some images doesn't work.
+
+* Catalano.Genetic
+
+- New: Grey Wolf Optimizer.
+
+* Catalano.MachineLearning
+
+- New: One Hot Encoder
+- Fixed: Categorical mapping in the Dataset Classification
+
+* Catalano.Math
+
+- Added: InsertColumn and InsertColumns in the Matrix.
