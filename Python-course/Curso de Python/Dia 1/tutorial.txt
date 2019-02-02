@@ -1,0 +1,44 @@
+-----------------------------------------------------------
+--------- Tutorial de instalação Linux Mint ---------------
+
+Feito por: Júlio César Machado Álvares
+
+Download Linux Mint 18.3 Sylvia 64 Bits Interface Xfce
+http://mint.c3sl.ufpr.br/stable/18.3/linuxmint-18.3-kde-64bit.iso
+
+Download Linux Mint 18.3 Sylvia 32 Bits Interface Xfce
+http://mint.c3sl.ufpr.br/stable/18.3/linuxmint-18.3-xfce-32bit.iso
+
+
+Motivo da utilização do Linux Mint: Distribuição Friendly user bastante estável e completa.
+Motivo da utilização da interface Xfce: Interface muito leve e editável, dando a possibilidade de personalizá-la de acordo com sua vontade.
+
+--------------Instalação--------------------
+
+1 - Caso você tenha Windows instalado, vá até o particionador de disco do seu windows e libere a quantidade de espaço desejada para a partição do Linux. (Deixe o espaço como "não alocado" mesmo)
+
+2 - Crie um pendrive bootavel com a iso do linux mint (Use esse programa: https://rufus.akeo.ie/downloads/rufus-2.18.exe)
+
+3 - Com o pendrive criado, reinicie seu PC e entre na BIOS.
+	3.1 - Na bios, desative o Secure Boot e ative o modo UEFI. (Não instale o sistema por Legacy)
+	3.2 - Ative a opção de Boot pelo pendrive como primeira opção.
+
+4 - Dê boot pelo sistema operacional do pendrive. (Caso não dê boot direto pelo pendrive, reinicie o PC e fique pressionando F12 para abrir as opções de Boot. Escolha dar boot pelo pendrive)
+
+5 - Já dentro do Linux Mint, entre no lançador chamado "Install Linux Mint" que estará na Área de Trabalho.
+
+6 - Forneça conexão Wireless, queira instalar softwares de terceiros e forneça sua localização.
+
+7 - Na parte de particionamento do disco, escolha a opção "Instalar lado a lado com Windows".
+	Ao escolher esse modo, o Mint vai mapear o seu sistema, buscar o espaço não alocado, fazer a instalação e configurar o Grub para Dual Boot automaticamente.
+
+8 - Forneça as outras informações e confirme a instalação. 
+
+9 - Reinicie sua máquina e retire o pendrive. (O Grub ja deve aparecer aqui.)
+
+-------------------------------------------
+
+Dicas: https://www.vivaolinux.com.br/dica/O-que-fazer-apos-instalar-Linux-Mint-18
+
+Instale Editores de texto como o Atom, Sublime Text 3, etc.
+Abrss !!

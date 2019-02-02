@@ -1,0 +1,29 @@
+Prezados, segue um breve tutorial do que deve ser instalado para o dia 3 do curso de python:
+
+ - Caso você use windows, veja esse tutorial: https://python.org.br/instalacao-windows/
+ - Os mesmos comandos finais (pip3) servem pra ambos os sistemas
+
+
+ - Todos os comandos a seguir devem ser executados no terminal do linux, o tutorial foi feito seguindo 
+a distribuição Linux Mint 18.
+
+
+ - Lista de comandos -
+
+sudo su
+aptitude install python3-pip
+pip3 install numpy pandas sklearn matplotlib nltk tkinter
+exit
+
+
+- Abra um ambiente python, como foi ensinado no primeiro dia do curso e digite os seguintes comandos:
+
+>>> import numpy
+>>> import matplotlib.pyplot
+>>> import pandas
+>>> import sklearn
+>>> import nltk
+
+Se nenhum dos comandos retornou algum erro, está tudo OK !!
+Caso algum retorne algum erro, é dependência de alguma outra biblioteca, veja qual é no erro e utilize o comando:
+ - pip3 install "biblioteca"  (sem aspas)
